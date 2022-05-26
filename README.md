@@ -383,7 +383,11 @@ $(() => {
   })
 })
 
-目前會長這樣
+24.npm run dev(將此專案開啟)
+有改code記得要先truffle compile跟truffle migrate
+npm run dev才會是最新的code
+
+目前會長這樣(卡loading 按F12看看有沒有錯誤log)
 ![image](https://user-images.githubusercontent.com/17786940/170486460-f3b0550d-0364-4238-bd32-6c3b55c9384c.png)
 
 但是metamask還沒有跟專案連動
