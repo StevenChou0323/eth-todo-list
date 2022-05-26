@@ -62,7 +62,7 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 8454,
+      port: 8545,
       network_id: "*" // Match any network id
     }
   },
@@ -74,7 +74,7 @@ module.exports = {
   }
 }
 
-重要! port:8454要跟ganache server port一樣才能對上
+重要! port:8545要跟ganache server port一樣才能對上
 
 12.$ touch migrations/2_deploy_contracts.js
 13.貼上
