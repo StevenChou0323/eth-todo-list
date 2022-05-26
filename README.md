@@ -45,6 +45,7 @@ https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpg
     "truffle-contract": "3.0.6"
   }
 }
+
 6.npm install(安裝上述devDependencies的套件)
 7.$ touch ./contracts/TodoList.sol(在contracts下建立一個.sol智能合約檔案)
 8.TodoList.so貼上
