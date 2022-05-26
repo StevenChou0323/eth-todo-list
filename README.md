@@ -55,9 +55,9 @@ pragma solidity ^0.5.0;
 contract TodoList {
   uint taskCount = 0;
 }
-9.$ truffle compile
-10.開啟ganache記得去看port
-11.truffle-config.js改成
+
+9.開啟ganache記得去看port
+10.truffle-config.js改成
 module.exports = {
   networks: {
     development: {
@@ -76,14 +76,15 @@ module.exports = {
 
 重要! port:8545要跟ganache server port一樣才能對上
 
-12.$ touch migrations/2_deploy_contracts.js
-13.貼上
+11.$ touch migrations/2_deploy_contracts.js
+12.貼上
 var TodoList = artifacts.require("./TodoList.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(TodoList);
 };
 
+13.$ truffle compile(有新增或是異動檔案要先compile 再migrate)
 14.$ truffle migrate
 15.$ truffle console
 
