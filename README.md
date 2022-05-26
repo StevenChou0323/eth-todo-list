@@ -407,5 +407,12 @@ https://www.youtube.com/watch?t=43m55s&v=rzvk2kdjr2I&feature=youtu.be
 
 28.確認後小狐狸錢包就可以跟ganache連動了
 
+補充:
+如何讓remix ide連動到localhost
+先安裝npm install -g @remix-project/remixd
+再透過remixd -s C:\Users\Steven\Desktop\eth-todo-list
+再到remix ide選localhost即可
+![image](https://user-images.githubusercontent.com/17786940/170493654-3ec31738-eb80-47d7-86c8-ad6ad4d13b3c.png)
+
 
 參考來源:https://www.dappuniversity.com/articles/blockchain-app-tutorial#dependencies(發生多次錯誤或者版本不適用的情況)
