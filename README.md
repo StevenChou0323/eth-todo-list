@@ -20,6 +20,7 @@ https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpg
 3. $ truffle init(初始化智能合約專案管理套件)
 4. $ touch package.json(建立package.json檔案)
 5. package.json貼上 
+
 {
   "name": "eth-todo-list",
   "version": "1.0.0",
